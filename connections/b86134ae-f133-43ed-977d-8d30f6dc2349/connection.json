@@ -7,10 +7,10 @@
     "version": "latest"
   },
   "properties": {
-    "Schema": "PRACTICE_CDATA",
+    "Schema": "PRACTICE_CDATA_1",
     "AuthScheme": "Password",
     "Database": "JAVICO",
-    "Password": "SECURE:bzu1ATNOcXvHpDKr8MFAuv2UZLUJJfcK3feXZzYes77dmR4Jm1fI225QB6GGzVu4R/FhQrGNqADludKaytU=",
+    "Password": "SECURE:c9j5Zybs9UydX02EIwiSCw7nqGcuPFvMTu1R6pczaQU8dwRjq4QvUTtTcISmdpyoBJI8OE9BVyk6wQF8InU=",
     "Warehouse": "COMPUTE_WH",
     "User": "javi",
     "URL": "https://QCWTVEW-DM50226.snowflakecomputing.com"
