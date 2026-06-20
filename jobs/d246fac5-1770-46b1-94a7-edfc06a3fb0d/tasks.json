@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": 988478989301583872,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [Address] SELECT * FROM [SalesLT].[Address]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583873,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [Customer] SELECT * FROM [SalesLT].[Customer]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583874,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [CustomerAddress] SELECT * FROM [SalesLT].[CustomerAddress]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583875,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [Product] SELECT * FROM [SalesLT].[Product]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583876,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [ProductCategory] SELECT * FROM [SalesLT].[ProductCategory]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583877,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [ProductDescription] SELECT * FROM [SalesLT].[ProductDescription]",
+      "is_active": true
+    },
+    {
+      "id": 988478989301583878,
+      "job_id": "d246fac5-1770-46b1-94a7-edfc06a3fb0d",
+      "query": "REPLICATE [ProductModel] SELECT * FROM [SalesLT].[ProductModel]",
+      "is_active": true
+    }
+  ]
+}

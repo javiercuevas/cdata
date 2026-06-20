@@ -1,0 +1,17 @@
+{
+  "id": "6dec84ad-6feb-465f-9ee0-16cbc51857ac",
+  "name": "pl-sql-to-snowflake-practice-2",
+  "destination": "b86134ae-f133-43ed-977d-8d30f6dc2349",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": true,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

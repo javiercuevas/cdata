@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 988219710720053248,
+      "job_id": "08f15246-aaf6-4403-b4ab-586eaeade370",
+      "query": "REPLICATE [DIM_DATE] SELECT * FROM [ANALYTICS].[DIM_DATE]",
+      "is_active": true
+    }
+  ]
+}

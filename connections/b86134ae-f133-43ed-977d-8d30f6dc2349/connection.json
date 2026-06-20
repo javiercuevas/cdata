@@ -1,0 +1,25 @@
+{
+  "id": "b86134ae-f133-43ed-977d-8d30f6dc2349",
+  "display_name": "conn-snowflake-javi",
+  "name": "snowflake_trial",
+  "connector": {
+    "name": "CData Snowflake",
+    "version": "latest"
+  },
+  "properties": {
+    "Schema": "PRACTICE_CDATA",
+    "AuthScheme": "Password",
+    "Database": "JAVICO",
+    "Password": "SECURE:bzu1ATNOcXvHpDKr8MFAuv2UZLUJJfcK3feXZzYes77dmR4Jm1fI225QB6GGzVu4R/FhQrGNqADludKaytU=",
+    "Warehouse": "COMPUTE_WH",
+    "User": "javi",
+    "URL": "https://QCWTVEW-DM50226.snowflakecomputing.com"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

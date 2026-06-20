@@ -1,0 +1,24 @@
+{
+  "id": "b8e298de-90a6-4046-974d-74a4ef4eb3cf",
+  "name": "tr-practice",
+  "pipeline_id": null,
+  "type": 4,
+  "destination_connector": "snowflake_trial",
+  "trigger": {
+    "type": "AfterJob",
+    "job_name": "a40e497a-8f0d-428e-bcfd-398849a27f20",
+    "job_tasks": []
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "javi01@msn.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
+    "verbosity": 2,
+    "command_timeout": 300
+  },
+  "labels": []
+}

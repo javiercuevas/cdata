@@ -1,0 +1,83 @@
+<api:script>
+  <api:info title="data" desc="Generated schema file." xmlns:other="http://apiscript.com/ns?v1">
+    <attr name="author" xs:type="string" readonly="False" other:xPath="/json/result/results/author" />
+    <attr name="author_email" xs:type="string" readonly="False" other:xPath="/json/result/results/author_email" />
+    <attr name="cache_last_updated" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/cache_last_updated" />
+    <attr name="cache_url" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/cache_url" />
+    <attr name="created" xs:type="datetime" readonly="False" other:xPath="/json/result/results/resources/created" />
+    <attr name="creator_user_id" xs:type="string" readonly="False" other:xPath="/json/result/results/creator_user_id" />
+    <attr name="describedBy" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/describedBy" />
+    <attr name="describedByType" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/describedByType" />
+    <attr name="description" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/description" />
+    <attr name="display_name" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/display_name" />
+    <attr name="extras:_id" xs:type="string" readonly="False" other:xPath="/json/result/results/extras/_id" />
+    <attr name="format" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/format" />
+    <attr name="groups" xs:type="string" readonly="False" other:xPath="/json/result/results/groups" />
+    <attr name="hash" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/hash" />
+    <attr name="id" xs:type="string" readonly="False" other:xPath="/json/result/results/id" />
+    <attr name="isopen" xs:type="boolean" readonly="False" other:xPath="/json/result/results/isopen" />
+    <attr name="key" xs:type="string" readonly="False" other:xPath="/json/result/results/extras/key" />
+    <attr name="last_modified" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/last_modified" />
+    <attr name="license_id" xs:type="string" readonly="False" other:xPath="/json/result/results/license_id" />
+    <attr name="license_title" xs:type="string" readonly="False" other:xPath="/json/result/results/license_title" />
+    <attr name="maintainer" xs:type="string" readonly="False" other:xPath="/json/result/results/maintainer" />
+    <attr name="maintainer_email" xs:type="string" readonly="False" other:xPath="/json/result/results/maintainer_email" />
+    <attr name="metadata_created" xs:type="datetime" readonly="False" other:xPath="/json/result/results/metadata_created" />
+    <attr name="metadata_modified" xs:type="datetime" readonly="False" other:xPath="/json/result/results/metadata_modified" />
+    <attr name="mimetype" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/mimetype" />
+    <attr name="mimetype_inner" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/mimetype_inner" />
+    <attr name="name" xs:type="string" readonly="False" other:xPath="/json/result/results/name" />
+    <attr name="notes" xs:type="string" readonly="False" other:xPath="/json/result/results/notes" />
+    <attr name="num_resources" xs:type="int" readonly="False" other:xPath="/json/result/results/num_resources" />
+    <attr name="num_tags" xs:type="int" readonly="False" other:xPath="/json/result/results/num_tags" />
+    <attr name="organization.approval_status" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/approval_status" />
+    <attr name="organization.created" xs:type="datetime" readonly="False" other:xPath="/json/result/results/organization/created" />
+    <attr name="organization.description" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/description" />
+    <attr name="organization.id" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/id" />
+    <attr name="organization.image_url" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/image_url" />
+    <attr name="organization.is_organization" xs:type="boolean" readonly="False" other:xPath="/json/result/results/organization/is_organization" />
+    <attr name="organization.name" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/name" />
+    <attr name="organization.state" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/state" />
+    <attr name="organization.title" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/title" />
+    <attr name="organization.type" xs:type="string" readonly="False" other:xPath="/json/result/results/organization/type" />
+    <attr name="owner_org" xs:type="string" readonly="False" other:xPath="/json/result/results/owner_org" />
+    <attr name="package_id" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/package_id" />
+    <attr name="position" xs:type="int" readonly="False" other:xPath="/json/result/results/resources/position" />
+    <attr name="private" xs:type="boolean" readonly="False" other:xPath="/json/result/results/private" />
+    <attr name="relationships_as_object" xs:type="string" readonly="False" other:xPath="/json/result/results/relationships_as_object" />
+    <attr name="relationships_as_subject" xs:type="string" readonly="False" other:xPath="/json/result/results/relationships_as_subject" />
+    <attr name="resource_type" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/resource_type" />
+    <attr name="resources.id" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/id" />
+    <attr name="resources.metadata_modified" xs:type="datetime" readonly="False" other:xPath="/json/result/results/resources/metadata_modified" />
+    <attr name="resources.name" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/name" />
+    <attr name="resources.state" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/state" />
+    <attr name="resources.url" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/url" />
+    <attr name="resources:_id" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/_id" />
+    <attr name="results:_id" xs:type="string" readonly="False" other:xPath="/json/result/results/_id" />
+    <attr name="size" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/size" />
+    <attr name="state" xs:type="string" readonly="False" other:xPath="/json/result/results/state" />
+    <attr name="tags.id" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/id" />
+    <attr name="tags.name" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/name" />
+    <attr name="tags.state" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/state" />
+    <attr name="tags:_id" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/_id" />
+    <attr name="title" xs:type="string" readonly="False" other:xPath="/json/result/results/title" />
+    <attr name="tracking_summary.recent" xs:type="int" readonly="False" other:xPath="/json/result/results/resources/tracking_summary/recent" />
+    <attr name="tracking_summary.total" xs:type="int" readonly="False" other:xPath="/json/result/results/resources/tracking_summary/total" />
+    <attr name="type" xs:type="string" readonly="False" other:xPath="/json/result/results/type" />
+    <attr name="url" xs:type="string" readonly="False" other:xPath="/json/result/results/url" />
+    <attr name="url_type" xs:type="string" readonly="False" other:xPath="/json/result/results/resources/url_type" />
+    <attr name="value" xs:type="string" readonly="False" other:xPath="/json/result/results/extras/value" />
+    <attr name="version" xs:type="string" readonly="False" other:xPath="/json/result/results/version" />
+    <attr name="vocabulary_id" xs:type="string" readonly="False" other:xPath="/json/result/results/tags/vocabulary_id" />
+  </api:info>
+  <api:setc attr="URI" value="https://api.gsa.gov/technology/datagov/v3/action/package_search?api_key=DEMO_KEY" />
+  <api:setc attr="XPath" value="/result/results;/result/results/extras;/result/results/resources;/result/results/tags" />
+  <api:set attr="DataModel" value="FlattenedDocuments" />
+  <api:set attr="PageIdColumns" value="True" />
+  <api:set attr="EnablePaging" value="False" />
+  <api:script method="GET">
+    <api:call op="jsonproviderGet">
+      <api:push />
+    </api:call>
+  </api:script>
+</api:script>

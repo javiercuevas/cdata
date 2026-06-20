@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 987972519912935424,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [Address] SELECT [AddressID], [AddressLine1], [AddressLine2], [City], [CountryRegion], [ModifiedDate], [PostalCode], [StateProvince], [rowguid] FROM [SalesLT].[Address]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935425,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [Customer] SELECT * FROM [SalesLT].[Customer]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935426,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [CustomerAddress] SELECT * FROM [SalesLT].[CustomerAddress]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935427,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [Product] SELECT * FROM [SalesLT].[Product]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935428,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [ProductCategory] SELECT * FROM [SalesLT].[ProductCategory]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935429,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [ProductDescription] SELECT * FROM [SalesLT].[ProductDescription]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935430,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [ProductModel] SELECT * FROM [SalesLT].[ProductModel]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935431,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [ProductModelProductDescription] SELECT * FROM [SalesLT].[ProductModelProductDescription]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935432,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [SalesOrderDetail] SELECT * FROM [SalesLT].[SalesOrderDetail]",
+      "is_active": true
+    },
+    {
+      "id": 987972519912935433,
+      "job_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "query": "REPLICATE [SalesOrderHeader] SELECT * FROM [SalesLT].[SalesOrderHeader]",
+      "is_active": true
+    }
+  ]
+}

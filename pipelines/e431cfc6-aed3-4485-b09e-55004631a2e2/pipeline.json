@@ -1,0 +1,17 @@
+{
+  "id": "e431cfc6-aed3-4485-b09e-55004631a2e2",
+  "name": "pl-test-2",
+  "destination": "506a204b-6ac5-4790-a321-820551726c60",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

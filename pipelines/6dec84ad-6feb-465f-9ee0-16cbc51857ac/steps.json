@@ -1,0 +1,15 @@
+{
+  "steps": [
+    {
+      "id": "919916d5-f860-4f29-93c2-30b1e50b708f",
+      "pipeline_id": "6dec84ad-6feb-465f-9ee0-16cbc51857ac",
+      "step_type": 1,
+      "entity_id": "23e0979e-0a50-49eb-adb1-f21862b583f2",
+      "previous_steps": [],
+      "next_steps": [],
+      "conditions": {
+        "stop_flow_if_error": "true"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "506a204b-6ac5-4790-a321-820551726c60",
+  "display_name": "conn-sql-server-javi-azure-practice-2",
+  "name": "sql_server_javi_azure_practice_2",
+  "connector": {
+    "name": "CData SQL",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "sql-server-javi.database.windows.net",
+    "AuthScheme": "Password",
+    "Database": "Practice_2",
+    "Password": "SECURE:gTORLkAZAuYVAAgf9KZo0V2+yAoRSWpku1U5TQqLbi0uVKrQ5zUfhX8Cq39Ec93+lXyB4pD5IVWVBcJ1MA==",
+    "Port": "1433",
+    "Encrypt": "True",
+    "UseSSH": "False",
+    "User": "sqladmin"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 0
+  }
+}

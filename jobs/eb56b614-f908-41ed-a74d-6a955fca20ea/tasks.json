@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "id": 987995863957770240,
+      "job_id": "eb56b614-f908-41ed-a74d-6a955fca20ea",
+      "query": "REPLICATE [Customer] SELECT * FROM [SalesLT].[Customer]",
+      "is_active": true
+    },
+    {
+      "id": 987995863957770241,
+      "job_id": "eb56b614-f908-41ed-a74d-6a955fca20ea",
+      "query": "REPLICATE [CustomerAddress] SELECT * FROM [SalesLT].[CustomerAddress]",
+      "is_active": true
+    },
+    {
+      "id": 987995863957770242,
+      "job_id": "eb56b614-f908-41ed-a74d-6a955fca20ea",
+      "query": "REPLICATE [Product] SELECT * FROM [SalesLT].[Product]",
+      "is_active": true
+    },
+    {
+      "id": 987995955011915777,
+      "job_id": "eb56b614-f908-41ed-a74d-6a955fca20ea",
+      "query": "REPLICATE [ProductCategory] SELECT * FROM [SalesLT].[ProductCategory]",
+      "is_active": true
+    }
+  ]
+}

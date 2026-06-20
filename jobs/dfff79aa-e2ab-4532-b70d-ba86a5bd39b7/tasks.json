@@ -1,0 +1,64 @@
+{
+  "tasks": [
+    {
+      "id": 988218831380025344,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [Address] SELECT * FROM [SalesLT].[Address]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025345,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [Customer] SELECT * FROM [SalesLT].[Customer]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025346,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [CustomerAddress] SELECT * FROM [SalesLT].[CustomerAddress]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025347,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [Product] SELECT * FROM [SalesLT].[Product]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025348,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [ProductCategory] SELECT * FROM [SalesLT].[ProductCategory]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025349,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [ProductDescription] SELECT * FROM [SalesLT].[ProductDescription]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025350,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [ProductModel] SELECT * FROM [SalesLT].[ProductModel]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025351,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [ProductModelProductDescription] SELECT * FROM [SalesLT].[ProductModelProductDescription]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025352,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [SalesOrderDetail] SELECT * FROM [SalesLT].[SalesOrderDetail]",
+      "is_active": true
+    },
+    {
+      "id": 988218831380025353,
+      "job_id": "dfff79aa-e2ab-4532-b70d-ba86a5bd39b7",
+      "query": "REPLICATE [SalesOrderHeader] SELECT * FROM [SalesLT].[SalesOrderHeader]",
+      "is_active": true
+    }
+  ]
+}

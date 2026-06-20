@@ -1,0 +1,17 @@
+{
+  "id": "8e730510-490f-4f46-b437-8f04268cb687",
+  "name": "pl-test",
+  "destination": "b86134ae-f133-43ed-977d-8d30f6dc2349",
+  "schedule": {
+    "enabled": false,
+    "cron": "*/30 * * * ?"
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}
