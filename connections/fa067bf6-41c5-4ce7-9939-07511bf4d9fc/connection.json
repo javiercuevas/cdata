@@ -1,0 +1,17 @@
+{
+  "id": "fa067bf6-41c5-4ce7-9939-07511bf4d9fc",
+  "display_name": "conn-linkedin-test",
+  "name": "conn-linkedin-test",
+  "connector": {
+    "name": "CData LinkedIn",
+    "version": "latest"
+  },
+  "properties": {},
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "55de37d2-f396-435d-b9b0-581a9820f98e",
+  "display_name": "conn-api-noaa-weather-forecast",
+  "name": "conn-api-noaa-weather-forecast",
+  "connector": {
+    "name": "CData API",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "None",
+    "URI": "https://api.weather.gov"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 86400,
+    "use_sync_proxy": 1
+  }
+}

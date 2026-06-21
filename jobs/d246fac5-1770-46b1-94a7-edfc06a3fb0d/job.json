@@ -6,12 +6,12 @@
   "source_connector": "sql_server_javi_azure_practice_2",
   "destination_connector": "snowflake_trial",
   "schedule": {
-    "enabled": false,
-    "cron": ""
+    "enabled": true,
+    "cron": "00 12 * * ?"
   },
   "alerts": {
-    "send_email": false,
-    "email_to": "",
+    "send_email": true,
+    "email_to": "javi01@msn.com",
     "email_error_only": false
   },
   "properties": {

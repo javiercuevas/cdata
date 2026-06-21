@@ -1,0 +1,17 @@
+{
+  "id": "6428ae01-2dbb-44c1-bc18-4f844682be87",
+  "name": "pl-linkedin-to-snowflake",
+  "destination": "b86134ae-f133-43ed-977d-8d30f6dc2349",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "properties": {},
+  "alerts": {
+    "send_email_notification": false,
+    "notify_email_subject": null,
+    "notify_email_to": null,
+    "email_error_only": false
+  },
+  "labels": []
+}

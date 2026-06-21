@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    {
+      "id": 988741754800967680,
+      "job_id": "648a02ad-e1c2-4a2f-82a8-28eb425c324a",
+      "query": "REPLICATE [CALLS] WITH OnModified = 'APPEND' SELECT * FROM [calls*.csv]",
+      "is_active": true
+    }
+  ]
+}

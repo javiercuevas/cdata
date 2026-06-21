@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 988744352803196928,
+      "job_id": "9fba762b-fe9e-4d17-b1dc-7f95f291d66e",
+      "query": "REPLICATE [Comments]",
+      "is_active": true
+    },
+    {
+      "id": 988744352803196929,
+      "job_id": "9fba762b-fe9e-4d17-b1dc-7f95f291d66e",
+      "query": "REPLICATE [CompanyStatusUpdates]",
+      "is_active": true
+    },
+    {
+      "id": 988744352803196930,
+      "job_id": "9fba762b-fe9e-4d17-b1dc-7f95f291d66e",
+      "query": "REPLICATE [Events]",
+      "is_active": true
+    }
+  ]
+}

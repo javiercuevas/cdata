@@ -1,9 +1,9 @@
 {
-  "id": "a40e497a-8f0d-428e-bcfd-398849a27f20",
-  "name": "job-sql-to-snowflake-practice_1",
-  "pipeline_id": "c61d9560-5a24-450b-a16e-afb8bc87b8a6",
-  "type": 7,
-  "source_connector": "sql_server_javi_azure",
+  "id": "9fba762b-fe9e-4d17-b1dc-7f95f291d66e",
+  "name": "job-linkedin-to-snowflake",
+  "pipeline_id": "6428ae01-2dbb-44c1-bc18-4f844682be87",
+  "type": 1,
+  "source_connector": "conn-linkedin-test",
   "destination_connector": "snowflake_trial",
   "schedule": {
     "enabled": false,
@@ -15,10 +15,10 @@
     "email_error_only": false
   },
   "properties": {
-    "enable_parallel_processing": true,
-    "worker_pool": 4,
+    "enable_parallel_processing": false,
+    "worker_pool": 2,
     "verbosity": 2,
-    "destination_schema": "PRACTICE_CDATA_1",
+    "destination_schema": "PRACTICE_CDATA_6",
     "automatic_job_retry": true
   },
   "replicate_options": {
@@ -31,11 +31,11 @@
     "drop_table": false,
     "truncate_table_data": false,
     "table_name_prefix": "",
-    "table_name_suffix": "",
+    "table_name_suffix": null,
     "continue_on_error": true,
-    "deletion_behavior": "SoftDelete",
-    "insert_mode": "FilePerBatch",
-    "auto_truncate_Strings": false,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
     "use_gmt_datetime": false,
     "command_timeout": 300,
     "additional_options": "batchsize=100000"

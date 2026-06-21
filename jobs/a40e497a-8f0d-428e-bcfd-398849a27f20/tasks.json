@@ -9,7 +9,7 @@
     {
       "id": 987602704446656515,
       "job_id": "a40e497a-8f0d-428e-bcfd-398849a27f20",
-      "query": "REPLICATE [Users] SELECT * FROM [dbo].[Users]",
+      "query": "REPLICATE [Users] WITH DropTable = 'false' SELECT * FROM [dbo].[Users]",
       "is_active": true
     },
     {
