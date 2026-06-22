@@ -8,7 +8,7 @@
   },
   "properties": {},
   "alerts": {
-    "send_email_notification": false,
+    "send_email_notification": true,
     "notify_email_subject": null,
     "notify_email_to": null,
     "email_error_only": false

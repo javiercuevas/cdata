@@ -1,0 +1,48 @@
+{
+  "id": "bd2c8373-7942-4df4-b2b6-92d94bd5b363",
+  "name": "job-mongo-javico-to-snowflake",
+  "pipeline_id": null,
+  "type": 1,
+  "source_connector": "conn-mongo-javico-cluster-01",
+  "destination_connector": "snowflake_trial",
+  "schedule": {
+    "enabled": false,
+    "cron": null
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "javi01@msn.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": false,
+    "worker_pool": 1,
+    "verbosity": 2,
+    "destination_schema": "PRACTICE_CDATA_8",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 0,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": false,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": false,
+    "deletion_behavior": "HardDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": false,
+    "use_gmt_datetime": false,
+    "command_timeout": 3000,
+    "additional_options": "batchsize=100000"
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

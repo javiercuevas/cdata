@@ -8,7 +8,7 @@
   },
   "properties": {
     "AuthScheme": "None",
-    "URI": "https://api.weather.gov"
+    "URI": "https://api.weather.gov/alerts"
   },
   "labels": [],
   "settings": {

@@ -1,0 +1,31 @@
+<api:script>
+  <api:info title="stations" desc="Generated schema file." xmlns:other="http://apiscript.com/ns?v1">
+    <attr name="features:_id" xs:type="string" readonly="False" other:xPath="/json/features/_id" />
+    <attr name="geometry.coordinates" xs:type="string" readonly="False" other:xPath="/json/features/geometry/coordinates" />
+    <attr name="geometry.type" xs:type="string" readonly="False" other:xPath="/json/features/geometry/type" />
+    <attr name="id" xs:type="string" readonly="False" other:xPath="/json/features/id" />
+    <attr name="properties.@id" xs:type="string" readonly="False" other:xPath="/json/features/properties/@id" />
+    <attr name="properties.@type" xs:type="string" readonly="False" other:xPath="/json/features/properties/@type" />
+    <attr name="properties.county" xs:type="string" readonly="False" other:xPath="/json/features/properties/county" />
+    <attr name="properties.elevation.unitCode" xs:type="string" readonly="False" other:xPath="/json/features/properties/elevation/unitCode" />
+    <attr name="properties.elevation.value" xs:type="double" readonly="False" other:xPath="/json/features/properties/elevation/value" />
+    <attr name="properties.fireWeatherZone" xs:type="string" readonly="False" other:xPath="/json/features/properties/fireWeatherZone" />
+    <attr name="properties.forecast" xs:type="string" readonly="False" other:xPath="/json/features/properties/forecast" />
+    <attr name="properties.name" xs:type="string" readonly="False" other:xPath="/json/features/properties/name" />
+    <attr name="properties.provider" xs:type="string" readonly="False" other:xPath="/json/features/properties/provider" />
+    <attr name="properties.stationIdentifier" xs:type="string" readonly="False" other:xPath="/json/features/properties/stationIdentifier" />
+    <attr name="properties.subProvider" xs:type="string" readonly="False" other:xPath="/json/features/properties/subProvider" />
+    <attr name="properties.timeZone" xs:type="string" readonly="False" other:xPath="/json/features/properties/timeZone" />
+    <attr name="type" xs:type="string" readonly="False" other:xPath="/json/features/type" />
+  </api:info>
+  <api:setc attr="URI" value="https://api.weather.gov/stations" />
+  <api:setc attr="XPath" value="/features" />
+  <api:set attr="DataModel" value="FlattenedDocuments" />
+  <api:set attr="PageIdColumns" value="True" />
+  <api:set attr="EnablePaging" value="False" />
+  <api:script method="GET">
+    <api:call op="jsonproviderGet">
+      <api:push />
+    </api:call>
+  </api:script>
+</api:script>

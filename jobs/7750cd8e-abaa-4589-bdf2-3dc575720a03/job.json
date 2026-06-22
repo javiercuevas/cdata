@@ -1,0 +1,48 @@
+{
+  "id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+  "name": "job-sql-to-snowflake-practice-3-cosample",
+  "pipeline_id": null,
+  "type": 7,
+  "source_connector": "conn-sql-server-javi-azure-practice-3",
+  "destination_connector": "snowflake_trial",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "javi01@msn.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": true,
+    "worker_pool": 8,
+    "verbosity": 2,
+    "destination_schema": "PRACTICE_CDATA_8",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": null,
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": null,
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 3000,
+    "additional_options": "batchsize=100000"
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

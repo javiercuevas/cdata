@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 989215167944462337,
+      "job_id": "e8950678-3c21-4043-bd7d-faaf9531cda3",
+      "query": "REPLICATE [alerts] SELECT * FROM [alerts]",
+      "is_active": true
+    },
+    {
+      "id": 989215167944462339,
+      "job_id": "e8950678-3c21-4043-bd7d-faaf9531cda3",
+      "query": "REPLICATE [stations] SELECT * FROM [stations]",
+      "is_active": true
+    },
+    {
+      "id": 989215167944462341,
+      "job_id": "e8950678-3c21-4043-bd7d-faaf9531cda3",
+      "query": "REPLICATE [zones] SELECT [features:_id], [geometry], [id], [properties.@id], [properties.@type], [properties.awipsLocationIdentifier], [properties.cwa], [properties.effectiveDate], [properties.expirationDate], [properties.forecastOffice], [properties.forecastOffices], [properties.gridIdentifier], [properties.id], [properties.name], [properties.observationStations], [properties.radarStation], [properties.state], [properties.timeZone], [properties.type], [type] FROM [zones]",
+      "is_active": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<api:script>
+  <api:info title="zones" desc="Generated schema file." xmlns:other="http://apiscript.com/ns?v1">
+    <attr name="features:_id" xs:type="string" readonly="False" other:xPath="/json/features/_id" />
+    <attr name="geometry" xs:type="string" readonly="False" other:xPath="/json/features/geometry" />
+    <attr name="id" xs:type="string" readonly="False" other:xPath="/json/features/id" />
+    <attr name="properties.@id" xs:type="string" readonly="False" other:xPath="/json/features/properties/@id" />
+    <attr name="properties.@type" xs:type="string" readonly="False" other:xPath="/json/features/properties/@type" />
+    <attr name="properties.awipsLocationIdentifier" xs:type="string" readonly="False" other:xPath="/json/features/properties/awipsLocationIdentifier" />
+    <attr name="properties.cwa" xs:type="string" readonly="False" other:xPath="/json/features/properties/cwa" />
+    <attr name="properties.effectiveDate" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/effectiveDate" />
+    <attr name="properties.expirationDate" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/expirationDate" />
+    <attr name="properties.forecastOffice" xs:type="string" readonly="False" other:xPath="/json/features/properties/forecastOffice" />
+    <attr name="properties.forecastOffices" xs:type="string" readonly="False" other:xPath="/json/features/properties/forecastOffices" />
+    <attr name="properties.gridIdentifier" xs:type="string" readonly="False" other:xPath="/json/features/properties/gridIdentifier" />
+    <attr name="properties.id" xs:type="string" readonly="False" other:xPath="/json/features/properties/id" />
+    <attr name="properties.name" xs:type="string" readonly="False" other:xPath="/json/features/properties/name" />
+    <attr name="properties.observationStations" xs:type="string" readonly="False" other:xPath="/json/features/properties/observationStations" />
+    <attr name="properties.radarStation" xs:type="string" readonly="False" other:xPath="/json/features/properties/radarStation" />
+    <attr name="properties.state" xs:type="string" readonly="False" other:xPath="/json/features/properties/state" />
+    <attr name="properties.timeZone" xs:type="string" readonly="False" other:xPath="/json/features/properties/timeZone" />
+    <attr name="properties.type" xs:type="string" readonly="False" other:xPath="/json/features/properties/type" />
+    <attr name="type" xs:type="string" readonly="False" other:xPath="/json/features/type" />
+  </api:info>
+  <api:setc attr="URI" value="https://api.weather.gov/zones" />
+  <api:setc attr="XPath" value="/features" />
+  <api:set attr="DataModel" value="FlattenedDocuments" />
+  <api:set attr="PageIdColumns" value="True" />
+  <api:set attr="EnablePaging" value="False" />
+  <api:script method="GET">
+    <api:call op="jsonproviderGet">
+      <api:push />
+    </api:call>
+  </api:script>
+</api:script>

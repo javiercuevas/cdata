@@ -1,0 +1,24 @@
+{
+  "id": "e546621f-82de-40a9-8a7a-5b9ef71c8949",
+  "display_name": "conn-mongo-javico-cluster-01",
+  "name": "conn-mongo-javico-cluster-01",
+  "connector": {
+    "name": "CData MongoDB",
+    "version": "latest"
+  },
+  "properties": {
+    "Server": "atlas-sql-6a383cbbc6a167ee3b3d2d4c-qn2qu.z.query.mongodb.net",
+    "AuthScheme": "MONGODB-CR",
+    "Password": "SECURE:fmq4n5GnFJqoRg83tz/HSO1Ks+ECwbpr7bKF7BFCkHZs5fy4vXkP/Su5UvfWuVjVgZ3bSKRjpc7pQA==",
+    "Port": "27017",
+    "User": "cdata",
+    "UseSSL": "True"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

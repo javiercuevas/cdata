@@ -1,0 +1,1234 @@
+{
+  "tasks": [
+    {
+      "id": 989279064072261633,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APChecks] SELECT * FROM [dbo].[APChecks]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261635,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APFederalHolidays] SELECT * FROM [dbo].[APFederalHolidays]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261637,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APHPaymentDetails] SELECT * FROM [dbo].[APHPaymentDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261639,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APHPayments] SELECT * FROM [dbo].[APHPayments]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261641,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APHVoucherDetails] SELECT * FROM [dbo].[APHVoucherDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261643,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APHVouchers] SELECT * FROM [dbo].[APHVouchers]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261645,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APInvoiceTypes] SELECT * FROM [dbo].[APInvoiceTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261647,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APJobs] SELECT * FROM [dbo].[APJobs]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261649,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APOrderTos] SELECT * FROM [dbo].[APOrderTos]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261651,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APPaymentDetails] SELECT * FROM [dbo].[APPaymentDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261653,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APPayments] SELECT * FROM [dbo].[APPayments]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261655,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APPaymentTypes] SELECT * FROM [dbo].[APPaymentTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261657,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APPurchasers] SELECT * FROM [dbo].[APPurchasers]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261659,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APQVoucherARTaxDetails] SELECT * FROM [dbo].[APQVoucherARTaxDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261661,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APQVoucherDetails] SELECT * FROM [dbo].[APQVoucherDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261663,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APQVouchers] SELECT * FROM [dbo].[APQVouchers]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261665,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVendorCustomProperties] SELECT * FROM [dbo].[APVendorCustomProperties]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261667,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVendorNoteDetails] SELECT * FROM [dbo].[APVendorNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261669,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVendorNotes] SELECT * FROM [dbo].[APVendorNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261671,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVendors] SELECT * FROM [dbo].[APVendors]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261673,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVoucherARTaxDetails] SELECT * FROM [dbo].[APVoucherARTaxDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261675,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVoucherDetails] SELECT * FROM [dbo].[APVoucherDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261677,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVoucherNoteDetails] SELECT * FROM [dbo].[APVoucherNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261679,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVoucherNotes] SELECT * FROM [dbo].[APVoucherNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261681,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [APVouchers] SELECT * FROM [dbo].[APVouchers]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261683,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPQReceivablePayableApplications] SELECT * FROM [dbo].[ARAPQReceivablePayableApplications]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261685,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPQReceivablePayableDistributions] SELECT * FROM [dbo].[ARAPQReceivablePayableDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261687,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPQReceivablePayables] SELECT * FROM [dbo].[ARAPQReceivablePayables]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261689,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPReceivablePayableApplications] SELECT * FROM [dbo].[ARAPReceivablePayableApplications]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261691,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPReceivablePayableDistributions] SELECT * FROM [dbo].[ARAPReceivablePayableDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261693,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARAPReceivablePayables] SELECT * FROM [dbo].[ARAPReceivablePayables]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261695,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCategories] SELECT * FROM [dbo].[ARCategories]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261697,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCCVaults] SELECT * FROM [dbo].[ARCCVaults]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261699,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARChargeAccountBaseTypes] SELECT * FROM [dbo].[ARChargeAccountBaseTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261701,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARChargeAccounts] SELECT * FROM [dbo].[ARChargeAccounts]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261703,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARChargeAccountTransactions] SELECT * FROM [dbo].[ARChargeAccountTransactions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261705,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARChargeAccountTypes] SELECT * FROM [dbo].[ARChargeAccountTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261707,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARChargeMethods] SELECT * FROM [dbo].[ARChargeMethods]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261709,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARConsolidatedBillingDetails] SELECT * FROM [dbo].[ARConsolidatedBillingDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261711,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARConsolidatedBillings] SELECT * FROM [dbo].[ARConsolidatedBillings]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261713,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerContact] SELECT * FROM [dbo].[ARCustomerContact]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261715,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerCustomProperties] SELECT * FROM [dbo].[ARCustomerCustomProperties]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261717,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerMessages] SELECT * FROM [dbo].[ARCustomerMessages]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261719,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerNoteDetails] SELECT * FROM [dbo].[ARCustomerNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261721,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerNotes] SELECT * FROM [dbo].[ARCustomerNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261723,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomers] SELECT * FROM [dbo].[ARCustomers]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261725,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARCustomerTypes] SELECT * FROM [dbo].[ARCustomerTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261727,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARFailedTransactions] SELECT * FROM [dbo].[ARFailedTransactions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261729,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARFinChargeDetailDistributions] SELECT * FROM [dbo].[ARFinChargeDetailDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261731,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARFinChargeDetails] SELECT * FROM [dbo].[ARFinChargeDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261733,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARFinCharges] SELECT * FROM [dbo].[ARFinCharges]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261735,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARHInvoiceDetails] SELECT * FROM [dbo].[ARHInvoiceDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261737,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARHInvoices] SELECT * FROM [dbo].[ARHInvoices]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261739,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARHInvoiceTaxDetails] SELECT * FROM [dbo].[ARHInvoiceTaxDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261741,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARHReceiptDetails] SELECT * FROM [dbo].[ARHReceiptDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261743,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARHReceipts] SELECT * FROM [dbo].[ARHReceipts]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261745,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceCategories] SELECT * FROM [dbo].[ARInvoiceCategories]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261747,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceChargeTransactions] SELECT * FROM [dbo].[ARInvoiceChargeTransactions]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261749,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceDetails] SELECT * FROM [dbo].[ARInvoiceDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261751,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceDetailTaxBases] SELECT * FROM [dbo].[ARInvoiceDetailTaxBases]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261753,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceNoteDetails] SELECT * FROM [dbo].[ARInvoiceNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989279064072261755,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceNotes] SELECT * FROM [dbo].[ARInvoiceNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350209,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceReportDefinitionGroupDetails] SELECT * FROM [dbo].[ARInvoiceReportDefinitionGroupDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350211,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoices] SELECT * FROM [dbo].[ARInvoices]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350213,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceSalesReps] SELECT * FROM [dbo].[ARInvoiceSalesReps]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350215,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceTaxDetails] SELECT * FROM [dbo].[ARInvoiceTaxDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350217,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceTypes] SELECT * FROM [dbo].[ARInvoiceTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350219,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARInvoiceUserFields] SELECT * FROM [dbo].[ARInvoiceUserFields]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350221,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARJobs] SELECT * FROM [dbo].[ARJobs]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350223,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARMerchantServices] SELECT * FROM [dbo].[ARMerchantServices]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350225,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARPriceLevels] SELECT * FROM [dbo].[ARPriceLevels]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350227,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARPriceSources] SELECT * FROM [dbo].[ARPriceSources]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350229,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARQFinChargeDetailDistributions] SELECT * FROM [dbo].[ARQFinChargeDetailDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350231,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARQFinChargeDetails] SELECT * FROM [dbo].[ARQFinChargeDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350233,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceiptChargeTransactions] SELECT * FROM [dbo].[ARReceiptChargeTransactions]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350235,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceiptDetails] SELECT * FROM [dbo].[ARReceiptDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350237,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceiptNoteDetails] SELECT * FROM [dbo].[ARReceiptNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350239,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceiptNotes] SELECT * FROM [dbo].[ARReceiptNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350241,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceipts] SELECT * FROM [dbo].[ARReceipts]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350243,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARReceiptTypes] SELECT * FROM [dbo].[ARReceiptTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350245,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARSalesRepOutCostCodes] SELECT * FROM [dbo].[ARSalesRepOutCostCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350247,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ARSalesReps] SELECT * FROM [dbo].[ARSalesReps]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350249,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBAccountNoteDetails] SELECT * FROM [dbo].[CBAccountNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350251,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBAccountNotes] SELECT * FROM [dbo].[CBAccountNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350253,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBAccounts] SELECT * FROM [dbo].[CBAccounts]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350255,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBAccountTypes] SELECT * FROM [dbo].[CBAccountTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350257,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournal] SELECT * FROM [dbo].[CBJournal]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350259,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournalDetails] SELECT * FROM [dbo].[CBJournalDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350261,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournalReceiptDistributions] SELECT * FROM [dbo].[CBJournalReceiptDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350263,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournalReceipts] SELECT * FROM [dbo].[CBJournalReceipts]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350265,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournalTransfers] SELECT * FROM [dbo].[CBJournalTransfers]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350267,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBJournalTypes] SELECT * FROM [dbo].[CBJournalTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350269,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBReceiptDistributions] SELECT * FROM [dbo].[CBReceiptDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350271,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBReceipts] SELECT * FROM [dbo].[CBReceipts]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350273,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBRegister] SELECT * FROM [dbo].[CBRegister]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350275,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CBRegisterDistributions] SELECT * FROM [dbo].[CBRegisterDistributions]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350277,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMActivities] SELECT * FROM [dbo].[CMActivities]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350279,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMActivityTypes] SELECT * FROM [dbo].[CMActivityTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350281,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMCategories] SELECT * FROM [dbo].[CMCategories]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350283,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContactCategory] SELECT * FROM [dbo].[CMContactCategory]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350285,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContactMethods] SELECT * FROM [dbo].[CMContactMethods]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350287,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContactNoteDetails] SELECT * FROM [dbo].[CMContactNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350289,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContactNotes] SELECT * FROM [dbo].[CMContactNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350291,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContacts] SELECT * FROM [dbo].[CMContacts]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350293,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CMContactTypes] SELECT * FROM [dbo].[CMContactTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350295,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoAddIns] SELECT * FROM [dbo].[CoAddIns]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350297,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoCodeListSettings] SELECT * FROM [dbo].[CoCodeListSettings]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350299,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoColumns] SELECT * FROM [dbo].[CoColumns]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350301,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoCounters] SELECT * FROM [dbo].[CoCounters]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350303,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoGroupRights] SELECT * FROM [dbo].[CoGroupRights]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350305,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoGroups] SELECT * FROM [dbo].[CoGroups]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350307,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoLicenseKeys] SELECT * FROM [dbo].[CoLicenseKeys]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350309,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoMergeHistory] SELECT * FROM [dbo].[CoMergeHistory]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350311,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoPostPeriods] SELECT * FROM [dbo].[CoPostPeriods]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350313,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoQueueDetails] SELECT * FROM [dbo].[CoQueueDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350315,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoQueues] SELECT * FROM [dbo].[CoQueues]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350317,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoRegDesc] SELECT * FROM [dbo].[CoRegDesc]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350319,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoRegKeys] SELECT * FROM [dbo].[CoRegKeys]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350321,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoRegValues] SELECT * FROM [dbo].[CoRegValues]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350323,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoScheduledTables] SELECT * FROM [dbo].[CoScheduledTables]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350325,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoSecuredObjects] SELECT * FROM [dbo].[CoSecuredObjects]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350327,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoSecurityResourceRights] SELECT * FROM [dbo].[CoSecurityResourceRights]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350329,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoSQLScriptLog] SELECT * FROM [dbo].[CoSQLScriptLog]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350331,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoSync] SELECT * FROM [dbo].[CoSync]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350333,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoSystemCodes] SELECT * FROM [dbo].[CoSystemCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350335,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoTables] SELECT * FROM [dbo].[CoTables]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350337,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoUserBranches] SELECT * FROM [dbo].[CoUserBranches]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350339,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoUserGroups] SELECT * FROM [dbo].[CoUserGroups]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350341,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoUserGroupsSecurityResourceRights] SELECT * FROM [dbo].[CoUserGroupsSecurityResourceRights]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350343,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoUserRights] SELECT * FROM [dbo].[CoUserRights]",
+      "is_active": true
+    },
+    {
+      "id": 989280990176350345,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [CoUsers] SELECT * FROM [dbo].[CoUsers]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207041,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [DGIEmitItInvoice] SELECT * FROM [dbo].[DGIEmitItInvoice]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207043,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [DGIEmitItMeter] SELECT * FROM [dbo].[DGIEmitItMeter]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207045,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [DGIEmitItTransfer] SELECT * FROM [dbo].[DGIEmitItTransfer]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207047,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccountClasses] SELECT * FROM [dbo].[GLAccountClasses]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207049,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccountCustomProperties] SELECT * FROM [dbo].[GLAccountCustomProperties]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207051,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccountNoteDetails] SELECT * FROM [dbo].[GLAccountNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207053,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccountNotes] SELECT * FROM [dbo].[GLAccountNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207055,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccounts] SELECT * FROM [dbo].[GLAccounts]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207057,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAccountTypes] SELECT * FROM [dbo].[GLAccountTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207059,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAcctDBInstanceProtections] SELECT * FROM [dbo].[GLAcctDBInstanceProtections]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207061,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAcctDBInstances] SELECT * FROM [dbo].[GLAcctDBInstances]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207063,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAcctProtectionAccountTypes] SELECT * FROM [dbo].[GLAcctProtectionAccountTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207065,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAcctProtections] SELECT * FROM [dbo].[GLAcctProtections]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207067,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAcctProtectionTypes] SELECT * FROM [dbo].[GLAcctProtectionTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207069,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAssetCodes] SELECT * FROM [dbo].[GLAssetCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207071,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAssetDeprCodes] SELECT * FROM [dbo].[GLAssetDeprCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207073,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAssetDeprConventions] SELECT * FROM [dbo].[GLAssetDeprConventions]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207075,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [GLAssetDeprMethods] SELECT * FROM [dbo].[GLAssetDeprMethods]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207077,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICConfigs] SELECT * FROM [dbo].[ICConfigs]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207079,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICConfigService] SELECT * FROM [dbo].[ICConfigService]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207081,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICConfigServiceDetails] SELECT * FROM [dbo].[ICConfigServiceDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207085,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICCostPools] SELECT * FROM [dbo].[ICCostPools]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207087,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICDeliveryMethods] SELECT * FROM [dbo].[ICDeliveryMethods]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207089,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICEquipmentCodes] SELECT * FROM [dbo].[ICEquipmentCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207091,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarehouses] SELECT * FROM [dbo].[ICWarehouses]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207093,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarehouseTypes] SELECT * FROM [dbo].[ICWarehouseTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207095,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyBillingCodes] SELECT * FROM [dbo].[ICWarrantyBillingCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207097,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyCodes] SELECT * FROM [dbo].[ICWarrantyCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207099,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyCoverageCodes] SELECT * FROM [dbo].[ICWarrantyCoverageCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207101,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyPeriods] SELECT * FROM [dbo].[ICWarrantyPeriods]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207103,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyTypes] SELECT * FROM [dbo].[ICWarrantyTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207105,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWarrantyTypesTransactions] SELECT * FROM [dbo].[ICWarrantyTypesTransactions]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207107,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWorkOrderMaterialOrders] SELECT * FROM [dbo].[ICWorkOrderMaterialOrders]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207109,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWorkOrderMaterials] SELECT * FROM [dbo].[ICWorkOrderMaterials]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207111,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ICWorkOrders] SELECT * FROM [dbo].[ICWorkOrders]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207113,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBaseColumns] SELECT * FROM [dbo].[LdBaseColumns]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207115,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBaseRelationships] SELECT * FROM [dbo].[LdBaseRelationships]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207117,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBases] SELECT * FROM [dbo].[LdBases]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207119,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBaseSecurity] SELECT * FROM [dbo].[LdBaseSecurity]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207121,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBaseTables] SELECT * FROM [dbo].[LdBaseTables]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207123,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdBaseTypes] SELECT * FROM [dbo].[LdBaseTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207125,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdColumnFunctions] SELECT * FROM [dbo].[LdColumnFunctions]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207127,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdDataTypes] SELECT * FROM [dbo].[LdDataTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207129,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdJoinTypes] SELECT * FROM [dbo].[LdJoinTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207131,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdMaster] SELECT * FROM [dbo].[LdMaster]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207133,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdMasterUsers] SELECT * FROM [dbo].[LdMasterUsers]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207135,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdMyViews] SELECT * FROM [dbo].[LdMyViews]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207137,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdSQLViewApplications] SELECT * FROM [dbo].[LdSQLViewApplications]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207139,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdTags] SELECT * FROM [dbo].[LdTags]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207141,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewColumnFunctions] SELECT * FROM [dbo].[LdViewColumnFunctions]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207143,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewColumns] SELECT * FROM [dbo].[LdViewColumns]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207145,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewFilterColumns] SELECT * FROM [dbo].[LdViewFilterColumns]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207147,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewFilters] SELECT * FROM [dbo].[LdViewFilters]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207149,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewGroups] SELECT * FROM [dbo].[LdViewGroups]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207151,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewRelationships] SELECT * FROM [dbo].[LdViewRelationships]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207153,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViews] SELECT * FROM [dbo].[LdViews]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207155,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewSQLFromStmt] SELECT * FROM [dbo].[LdViewSQLFromStmt]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207157,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewSQLSelectStmt] SELECT * FROM [dbo].[LdViewSQLSelectStmt]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207159,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [LdViewTags] SELECT * FROM [dbo].[LdViewTags]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207161,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogAddIns] SELECT * FROM [dbo].[ListDialogAddIns]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207163,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogFilterColumns] SELECT * FROM [dbo].[ListDialogFilterColumns]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207165,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogFilters] SELECT * FROM [dbo].[ListDialogFilters]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207167,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogGroupDetails] SELECT * FROM [dbo].[ListDialogGroupDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207169,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogGroups] SELECT * FROM [dbo].[ListDialogGroups]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207171,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogLinks] SELECT * FROM [dbo].[ListDialogLinks]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207173,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogReports] SELECT * FROM [dbo].[ListDialogReports]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207175,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [ListDialogTypes] SELECT * FROM [dbo].[ListDialogTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207177,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCallNoteDetails] SELECT * FROM [dbo].[SCCallNoteDetails]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207179,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCallNotes] SELECT * FROM [dbo].[SCCallNotes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207181,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCalls] SELECT * FROM [dbo].[SCCalls]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207183,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCallStatusTypes] SELECT * FROM [dbo].[SCCallStatusTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207185,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCallTypes] SELECT * FROM [dbo].[SCCallTypes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207187,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCCancelCodes] SELECT * FROM [dbo].[SCCancelCodes]",
+      "is_active": true
+    },
+    {
+      "id": 989284827893207189,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [SCWorkOrders] SELECT * FROM [dbo].[SCWorkOrders]",
+      "is_active": true
+    }
+  ]
+}

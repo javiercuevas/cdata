@@ -1,0 +1,69 @@
+<api:script>
+  <api:info title="alerts" desc="Generated schema file." xmlns:other="http://apiscript.com/ns?v1">
+    <attr name="features:_id" xs:type="string" readonly="False" other:xPath="/json/features/_id" />
+    <attr name="geometry" xs:type="string" readonly="False" other:xPath="/json/features/geometry" />
+    <attr name="geometry.coordinates" xs:type="string" readonly="False" other:xPath="/json/features/geometry/coordinates" />
+    <attr name="geometry.type" xs:type="string" readonly="False" other:xPath="/json/features/geometry/type" />
+    <attr name="id" xs:type="string" readonly="False" other:xPath="/json/features/id" />
+    <attr name="properties.@id" xs:type="string" readonly="False" other:xPath="/json/features/properties/@id" />
+    <attr name="properties.@type" xs:type="string" readonly="False" other:xPath="/json/features/properties/@type" />
+    <attr name="properties.affectedZones" xs:type="string" readonly="False" other:xPath="/json/features/properties/affectedZones" />
+    <attr name="properties.areaDesc" xs:type="string" readonly="False" other:xPath="/json/features/properties/areaDesc" />
+    <attr name="properties.category" xs:type="string" readonly="False" other:xPath="/json/features/properties/category" />
+    <attr name="properties.certainty" xs:type="string" readonly="False" other:xPath="/json/features/properties/certainty" />
+    <attr name="properties.code" xs:type="string" readonly="False" other:xPath="/json/features/properties/code" />
+    <attr name="properties.description" xs:type="string" readonly="False" other:xPath="/json/features/properties/description" />
+    <attr name="properties.effective" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/effective" />
+    <attr name="properties.ends" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/ends" />
+    <attr name="properties.event" xs:type="string" readonly="False" other:xPath="/json/features/properties/event" />
+    <attr name="properties.eventCode.NationalWeatherService" xs:type="string" readonly="False" other:xPath="/json/features/properties/eventCode/NationalWeatherService" />
+    <attr name="properties.eventCode.SAME" xs:type="string" readonly="False" other:xPath="/json/features/properties/eventCode/SAME" />
+    <attr name="properties.expires" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/expires" />
+    <attr name="properties.geocode.SAME" xs:type="string" readonly="False" other:xPath="/json/features/properties/geocode/SAME" />
+    <attr name="properties.geocode.UGC" xs:type="string" readonly="False" other:xPath="/json/features/properties/geocode/UGC" />
+    <attr name="properties.headline" xs:type="string" readonly="False" other:xPath="/json/features/properties/headline" />
+    <attr name="properties.id" xs:type="string" readonly="False" other:xPath="/json/features/properties/id" />
+    <attr name="properties.instruction" xs:type="string" readonly="False" other:xPath="/json/features/properties/instruction" />
+    <attr name="properties.language" xs:type="string" readonly="False" other:xPath="/json/features/properties/language" />
+    <attr name="properties.messageType" xs:type="string" readonly="False" other:xPath="/json/features/properties/messageType" />
+    <attr name="properties.note" xs:type="string" readonly="False" other:xPath="/json/features/properties/note" />
+    <attr name="properties.onset" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/onset" />
+    <attr name="properties.parameters.AWIPSidentifier" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/AWIPSidentifier" />
+    <attr name="properties.parameters.BLOCKCHANNEL" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/BLOCKCHANNEL" />
+    <attr name="properties.parameters.EAS-ORG" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/EAS-ORG" />
+    <attr name="properties.parameters.NWSheadline" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/NWSheadline" />
+    <attr name="properties.parameters.VTEC" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/VTEC" />
+    <attr name="properties.parameters.WMOidentifier" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/WMOidentifier" />
+    <attr name="properties.parameters.eventEndingTime" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/eventEndingTime" />
+    <attr name="properties.parameters.eventMotionDescription" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/eventMotionDescription" />
+    <attr name="properties.parameters.expiredReferences" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/expiredReferences" />
+    <attr name="properties.parameters.hailThreat" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/hailThreat" />
+    <attr name="properties.parameters.maxHailSize" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/maxHailSize" />
+    <attr name="properties.parameters.maxWindGust" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/maxWindGust" />
+    <attr name="properties.parameters.tornadoDetection" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/tornadoDetection" />
+    <attr name="properties.parameters.windThreat" xs:type="string" readonly="False" other:xPath="/json/features/properties/parameters/windThreat" />
+    <attr name="properties.references" xs:type="string" readonly="False" other:xPath="/json/features/properties/references" />
+    <attr name="properties.replacedAt" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/replacedAt" />
+    <attr name="properties.replacedBy" xs:type="string" readonly="False" other:xPath="/json/features/properties/replacedBy" />
+    <attr name="properties.response" xs:type="string" readonly="False" other:xPath="/json/features/properties/response" />
+    <attr name="properties.scope" xs:type="string" readonly="False" other:xPath="/json/features/properties/scope" />
+    <attr name="properties.sender" xs:type="string" readonly="False" other:xPath="/json/features/properties/sender" />
+    <attr name="properties.senderName" xs:type="string" readonly="False" other:xPath="/json/features/properties/senderName" />
+    <attr name="properties.sent" xs:type="datetime" readonly="False" other:xPath="/json/features/properties/sent" />
+    <attr name="properties.severity" xs:type="string" readonly="False" other:xPath="/json/features/properties/severity" />
+    <attr name="properties.status" xs:type="string" readonly="False" other:xPath="/json/features/properties/status" />
+    <attr name="properties.urgency" xs:type="string" readonly="False" other:xPath="/json/features/properties/urgency" />
+    <attr name="properties.web" xs:type="string" readonly="False" other:xPath="/json/features/properties/web" />
+    <attr name="type" xs:type="string" readonly="False" other:xPath="/json/features/type" />
+  </api:info>
+  <api:setc attr="URI" value="https://api.weather.gov/alerts" />
+  <api:setc attr="XPath" value="/features" />
+  <api:set attr="DataModel" value="FlattenedDocuments" />
+  <api:set attr="PageIdColumns" value="True" />
+  <api:set attr="EnablePaging" value="False" />
+  <api:script method="GET">
+    <api:call op="jsonproviderGet">
+      <api:push />
+    </api:call>
+  </api:script>
+</api:script>
