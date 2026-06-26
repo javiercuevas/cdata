@@ -7,12 +7,12 @@
     "version": "latest"
   },
   "properties": {
-    "Server": "localhost",
-    "Password": "SECURE:ASkfeRUPyA7UdhWRVNTAb2xGfGTx124dXtOMn1U258mRAOcdCut2Dk7pS0nk2OJv",
+    "Server": "host=adb.us-phoenix-1.oraclecloud.com",
+    "Password": "SECURE:xVfwiK4gIFGRsRuCgOB8vJbcNuCvgDZ0hRBCJcUSI+0V0yQ1dD9b5kWdYrM3zYQfaLIunbOWFANGqLx1gQ==",
     "Port": "1521",
-    "ConnectionType": "SID",
-    "User": "",
-    "SID": "ORCL"
+    "Service": "g6b4f686d90fd0b_oraclejavidb01_high.adb.oraclecloud.com",
+    "ConnectionType": "Service Name",
+    "User": "admin"
   },
   "labels": [],
   "settings": {

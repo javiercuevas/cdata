@@ -1,0 +1,94 @@
+{
+  "tasks": [
+    {
+      "id": 990719015854936065,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APChecks] SELECT [CheckID], MASK([Address], '*') AS [Address], [Amount], [BalanceSheetGroupID], [BranchID], [City], [Country], [CreateDate], [CreatorID], [Description], [DivisionID], [EFT], [LastUpdate], [Name], [ReceivablePayableID], [State], [Unapplied], [UnappliedGLID], [UpdatorID], [VendorID], [Zip], [timestamp] FROM [dbo].[APChecks]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936067,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APFederalHolidays] SELECT * FROM [dbo].[APFederalHolidays]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936069,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APHPaymentDetails] SELECT * FROM [dbo].[APHPaymentDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936071,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APHPayments] SELECT * FROM [dbo].[APHPayments]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936073,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APHVoucherDetails] SELECT * FROM [dbo].[APHVoucherDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936075,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APHVouchers] SELECT * FROM [dbo].[APHVouchers]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936077,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APInvoiceTypes] SELECT * FROM [dbo].[APInvoiceTypes]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936079,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APJobs] SELECT * FROM [dbo].[APJobs]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936081,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APOrderTos] SELECT * FROM [dbo].[APOrderTos]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936083,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APPaymentDetails] SELECT * FROM [dbo].[APPaymentDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936085,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APPayments] SELECT * FROM [dbo].[APPayments]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936087,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APPaymentTypes] SELECT * FROM [dbo].[APPaymentTypes]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936089,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APPurchasers] SELECT * FROM [dbo].[APPurchasers]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936091,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APQVoucherARTaxDetails] SELECT * FROM [dbo].[APQVoucherARTaxDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990719015854936093,
+      "job_id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+      "query": "REPLICATE [APVendors] SELECT * FROM [dbo].[APVendors]",
+      "is_active": true
+    }
+  ]
+}

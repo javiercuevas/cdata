@@ -9,7 +9,7 @@
   "properties": {
     "AuthScheme": "AccessKey",
     "AzureStorageAccount": "javistorage01",
-    "AzureAccessKey": "SECURE:QJzYRAi0ORORY7qRRlgq2jot8QHdeRWqdz9Pz3G8hRn8enRctNvrCcmtX1glTlqfAn1N0f5TYwJSD9ZFaYdP7XAqD1tuubLWrMiZ3ja4WVJmySZJJdbCJX1US9u6/QEPOnKD3IeTnRHjJA5P45u+ly9lCxWzJ+r9x8GJPyBN42gnuCyxqewTTw==",
+    "AzureAccessKey": "SECURE:vj1WBU8GdfFXEDwMaYuyz3LYuxkZLW2CmUhoK4hOoXAdef1/rsUR4FD+gRjyAE+Y0IOxXHPpSPmWZ6RPZz5Di4ZbbjcY6hTZL3ivay2LtKRJ8FjaW80ApCmBldxOlMZLyv0cpMYORnkmh7MExupEB32FGaebHLrV0ZdQntN3IBegmIKVnJC+lg==",
     "ConnectionType": "Azure Data Lake Storage Gen2 SSL",
     "URI": "abfss://practice/calls"
   },

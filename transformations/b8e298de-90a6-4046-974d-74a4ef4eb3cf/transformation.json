@@ -6,7 +6,7 @@
   "destination_connector": "snowflake_trial",
   "trigger": {
     "type": "AfterJob",
-    "job_name": "a40e497a-8f0d-428e-bcfd-398849a27f20",
+    "job_name": "7b8a5142-0fca-4ed5-bd13-238c67745507",
     "job_tasks": []
   },
   "alerts": {

@@ -11,12 +11,12 @@
   },
   "alerts": {
     "send_email": true,
-    "email_to": "javi01@msn.com",
+    "email_to": "javier.cuevas@srpnet.com,javi01@msn.com",
     "email_error_only": false
   },
   "properties": {
     "enable_parallel_processing": true,
-    "worker_pool": 8,
+    "worker_pool": 4,
     "verbosity": 2,
     "destination_schema": "PRACTICE_CDATA_8",
     "automatic_job_retry": true

@@ -38,7 +38,7 @@
     "auto_truncate_Strings": false,
     "use_gmt_datetime": false,
     "command_timeout": 300,
-    "additional_options": "batchsize=100000"
+    "additional_options": "storesuppercaseidentifiers=TRUE,batchsize=100000"
   },
   "events": {
     "pre_job": null,

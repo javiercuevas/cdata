@@ -4,7 +4,7 @@
   "name": "conn-api-noaa-weather-forecast",
   "connector": {
     "name": "CData API",
-    "version": "latest"
+    "version": "25.0.9539.0"
   },
   "properties": {
     "AuthScheme": "None",

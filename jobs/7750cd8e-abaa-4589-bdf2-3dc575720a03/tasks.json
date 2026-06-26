@@ -1229,6 +1229,18 @@
       "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
       "query": "REPLICATE [SCWorkOrders] SELECT * FROM [dbo].[SCWorkOrders]",
       "is_active": true
+    },
+    {
+      "id": 989927588107522049,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [RPReports] SELECT * FROM [dbo].[RPReports]",
+      "is_active": true
+    },
+    {
+      "id": 989927588107522051,
+      "job_id": "7750cd8e-abaa-4589-bdf2-3dc575720a03",
+      "query": "REPLICATE [RPReportSecurity] SELECT * FROM [dbo].[RPReportSecurity]",
+      "is_active": true
     }
   ]
 }

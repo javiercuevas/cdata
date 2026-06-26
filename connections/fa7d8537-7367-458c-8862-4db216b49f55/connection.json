@@ -1,14 +1,13 @@
 {
-  "id": "fb1eb1ef-9baa-418a-afca-8a662eccc393",
-  "display_name": "conn-api-gsa-gov-test",
-  "name": "conn-test",
+  "id": "fa7d8537-7367-458c-8862-4db216b49f55",
+  "display_name": "test",
+  "name": "test",
   "connector": {
     "name": "CData API",
     "version": "25.0.9539.0"
   },
   "properties": {
-    "AuthScheme": "None",
-    "URI": "https://api.gsa.gov/technology/datagov/v3/action/package_search?api_key=DEMO_KEY"
+    "AuthScheme": "None"
   },
   "labels": [],
   "settings": {

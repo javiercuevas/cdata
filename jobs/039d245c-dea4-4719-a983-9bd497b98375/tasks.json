@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": 990343060934234113,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APChecks] SELECT * FROM [dbo].[APChecks]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234115,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APFederalHolidays] SELECT * FROM [dbo].[APFederalHolidays]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234117,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APHPaymentDetails] SELECT * FROM [dbo].[APHPaymentDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234119,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APHPayments] SELECT * FROM [dbo].[APHPayments]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234121,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APHVoucherDetails] SELECT * FROM [dbo].[APHVoucherDetails]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234123,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APHVouchers] SELECT * FROM [dbo].[APHVouchers]",
+      "is_active": true
+    },
+    {
+      "id": 990343060934234125,
+      "job_id": "039d245c-dea4-4719-a983-9bd497b98375",
+      "query": "REPLICATE [APInvoiceTypes] SELECT * FROM [dbo].[APInvoiceTypes]",
+      "is_active": true
+    }
+  ]
+}

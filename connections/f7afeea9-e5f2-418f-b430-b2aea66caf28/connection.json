@@ -1,0 +1,20 @@
+{
+  "id": "f7afeea9-e5f2-418f-b430-b2aea66caf28",
+  "display_name": "conn-dynamics-test",
+  "name": "conn-dynamics-test",
+  "connector": {
+    "name": "CData Dynamics365",
+    "version": "latest"
+  },
+  "properties": {
+    "AuthScheme": "AzureAD",
+    "Edition": "FinOpsOnline"
+  },
+  "labels": [],
+  "settings": {
+    "verbosity": 0,
+    "use_cdata_callback_url": 0,
+    "metadata_refresh_interval": 3600,
+    "use_sync_proxy": 1
+  }
+}

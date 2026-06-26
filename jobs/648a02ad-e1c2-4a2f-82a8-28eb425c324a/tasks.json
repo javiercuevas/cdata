@@ -3,7 +3,7 @@
     {
       "id": 988741754800967680,
       "job_id": "648a02ad-e1c2-4a2f-82a8-28eb425c324a",
-      "query": "REPLICATE [PRACTICE_CDATA_6].[CALLS] WITH OnModified = 'UPSERT' SELECT [AddressCity], [AddressState], [AddressZip], [BillCodeID], [BillToID], [CallID], [CallNumber], [CloseDate], [ContractID], [CreateDate], [CustomerID], [Date], [EquipmentID], [ReqDate], [TechnicianID], [WorkOrderID] FROM [*.csv]",
+      "query": "REPLICATE [PRACTICE_CDATA_6].[CALLS] WITH storesuppercaseidentifiers = 'TRUE', OnModified = 'UPSERT' SELECT [AddressCity], [AddressState], [AddressZip], [BillCodeID], [BillToID], [CallID], [CallNumber], [CloseDate], [ContractID], [CreateDate], [CustomerID], [Date], [EquipmentID], [ReqDate], [TechnicianID], [WorkOrderID] FROM [*.csv]",
       "is_active": true
     }
   ]

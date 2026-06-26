@@ -1,24 +1,24 @@
 {
-  "id": "648a02ad-e1c2-4a2f-82a8-28eb425c324a",
-  "name": "job-adls-to-snowflake-test",
-  "pipeline_id": "7fe0df3b-98e3-4f43-91f8-e3e33a79ae60",
-  "type": 3,
-  "source_connector": "conn-adls-javi",
+  "id": "7b8a5142-0fca-4ed5-bd13-238c67745507",
+  "name": "job-javi-dev",
+  "pipeline_id": null,
+  "type": 7,
+  "source_connector": "conn-sql-server-javi-azure-practice-3",
   "destination_connector": "snowflake_trial",
   "schedule": {
-    "enabled": false,
-    "cron": ""
+    "enabled": true,
+    "cron": "00 12 * * 1"
   },
   "alerts": {
-    "send_email": false,
-    "email_to": "",
+    "send_email": true,
+    "email_to": "javier.cuevas@srpnet.com",
     "email_error_only": false
   },
   "properties": {
-    "enable_parallel_processing": false,
-    "worker_pool": 2,
+    "enable_parallel_processing": true,
+    "worker_pool": 4,
     "verbosity": 2,
-    "destination_schema": "PRACTICE_CDATA_6",
+    "destination_schema": "DEV_JAVI",
     "automatic_job_retry": true
   },
   "replicate_options": {
@@ -33,11 +33,11 @@
     "table_name_prefix": "",
     "table_name_suffix": "",
     "continue_on_error": true,
-    "deletion_behavior": "HardDelete",
+    "deletion_behavior": "SoftDelete",
     "insert_mode": "FilePerBatch",
     "auto_truncate_Strings": true,
     "use_gmt_datetime": false,
-    "command_timeout": 300,
+    "command_timeout": 3000,
     "additional_options": "storesuppercaseidentifiers=TRUE,batchsize=100000"
   },
   "events": {
