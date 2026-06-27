@@ -1,0 +1,48 @@
+{
+  "id": "e526cea1-40ee-4f8a-83b7-de4a2af3875c",
+  "name": "job-demo-01",
+  "pipeline_id": null,
+  "type": 7,
+  "source_connector": "sql_server_javi_azure",
+  "destination_connector": "snowflake_trial",
+  "schedule": {
+    "enabled": false,
+    "cron": ""
+  },
+  "alerts": {
+    "send_email": true,
+    "email_to": "javi01@msn.com",
+    "email_error_only": false
+  },
+  "properties": {
+    "enable_parallel_processing": true,
+    "worker_pool": 4,
+    "verbosity": 2,
+    "destination_schema": "PRACTICE_CDATA_1",
+    "automatic_job_retry": true
+  },
+  "replicate_options": {
+    "replicate_start_date": null,
+    "replicate_interval": 180,
+    "replicate_interval_unit": "days",
+    "snapshot_size": "1000000",
+    "skip_snapshot": "false",
+    "alter_schema": true,
+    "drop_table": false,
+    "truncate_table_data": false,
+    "table_name_prefix": "",
+    "table_name_suffix": "",
+    "continue_on_error": true,
+    "deletion_behavior": "SoftDelete",
+    "insert_mode": "FilePerBatch",
+    "auto_truncate_Strings": true,
+    "use_gmt_datetime": false,
+    "command_timeout": 3000,
+    "additional_options": "storesuppercaseidentifiers=true,batchsize=100000"
+  },
+  "events": {
+    "pre_job": null,
+    "post_job": null
+  },
+  "labels": []
+}

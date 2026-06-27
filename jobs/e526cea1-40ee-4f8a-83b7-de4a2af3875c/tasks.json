@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 991022965246267393,
+      "job_id": "e526cea1-40ee-4f8a-83b7-de4a2af3875c",
+      "query": "REPLICATE [Calls] SELECT * FROM [dbo].[Calls]",
+      "is_active": true
+    },
+    {
+      "id": 991022965246267395,
+      "job_id": "e526cea1-40ee-4f8a-83b7-de4a2af3875c",
+      "query": "REPLICATE [Emails] SELECT * FROM [dbo].[Emails]",
+      "is_active": true
+    },
+    {
+      "id": 991022965246267397,
+      "job_id": "e526cea1-40ee-4f8a-83b7-de4a2af3875c",
+      "query": "REPLICATE [Users] SELECT * FROM [dbo].[Users]",
+      "is_active": true
+    }
+  ]
+}
