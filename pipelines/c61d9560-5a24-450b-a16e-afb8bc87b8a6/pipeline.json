@@ -8,9 +8,9 @@
   },
   "properties": {},
   "alerts": {
-    "send_email_notification": true,
-    "notify_email_subject": null,
-    "notify_email_to": null,
+    "send_email_notification": false,
+    "notify_email_subject": "CData Sync - Practice",
+    "notify_email_to": "javi01@msn.com",
     "email_error_only": false
   },
   "labels": []

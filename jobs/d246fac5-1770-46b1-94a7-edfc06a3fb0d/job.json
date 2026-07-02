@@ -16,7 +16,7 @@
   },
   "properties": {
     "enable_parallel_processing": true,
-    "worker_pool": 12,
+    "worker_pool": 2,
     "verbosity": 2,
     "destination_schema": "PRACTICE_CDATA_4",
     "automatic_job_retry": true
